@@ -1,0 +1,8 @@
+{
+	"@metadata": {
+		"authors": [
+			"Alex Huttunen"
+		]
+	},
+	"zintbarcode-desc": "Uses the [https://www.zint.org.uk/ Zint] barcode library compiled as a WASM extension to draw barcodes to canvas objects"
+}

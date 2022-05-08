@@ -1,0 +1,17 @@
+.barcode-wrapper {
+	display: inline-block;
+	padding: 0.5em;
+}
+
+.barcode-wrapper canvas {
+	display: block;
+}
+
+.alt-loading {
+	background: #9994;
+	color: #000;
+}
+
+.alt-loading.hide {
+	display: none;
+}

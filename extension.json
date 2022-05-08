@@ -1,0 +1,48 @@
+{
+	"name": "ZintBarcode",
+	"author": [
+		"Alex Huttunen"
+	],
+	"url": "",
+	"descriptionmsg": "zintbarcode-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "parserhook",
+	"requires": {
+		"MediaWiki": ">= 1.35.0"
+	},
+	"AutoloadNamespaces": {
+		"MediaWiki\\Extension\\ZintBarcode\\": "includes/"
+	},
+	"config": {},
+	"HookHandlers": {
+		"ZintBarcodeHooks": {
+			"class": "MediaWiki\\Extension\\ZintBarcode\\Hooks"
+		}
+	},
+	"Hooks": {
+		"ParserFirstCallInit": "ZintBarcodeHooks"
+	},
+	"MessagesDirs": {
+		"ZintBarcode": [
+			"i18n"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "ZintBarcode/resources"
+	},
+	"ResourceModules": {
+		"ext.zintBarcode": {
+			"dependencies": [],
+			"messages": [],
+			"styles": [
+				"barcode.css"
+			],
+			"scripts": [
+				"ext.zintBarcode/wasmzint.js",
+				"barcodereplace.js"
+			]
+		}
+	},
+	"manifest_version": 2
+}
