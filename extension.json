@@ -3,7 +3,7 @@
 	"author": [
 		"Alex Huttunen"
 	],
-	"url": "",
+	"url": "https://github.com/alexhutt/ZintBarcodeMediawiki",
 	"descriptionmsg": "zintbarcode-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "parserhook",

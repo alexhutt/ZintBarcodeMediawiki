@@ -16,6 +16,13 @@ See section 5.8 of [the Zint manual](https://www.zint.org.uk/manual/chapter/5) f
 
 [Chapter 6](https://zint.org.uk/manual/chapter/6/1) has symbology specific constants for option1, option2, and option3.
 
+## Installation
+
+from your mediawiki installation directory
+
+	cd extensions
+	git clone https://github.com/alexhutt/ZintBarcodeMediawiki ZintBarcode
+
 ## Development
 
 The boilerplate for this extension was provided by https://www.mediawiki.org/wiki/Extension:BoilerPlate. `npm test` and `composer test` were provided by this boilerplate and work after `npm install` and `composer install`.
